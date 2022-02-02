@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API FrameWork">
+      <UniqueIdentifier>{ff1e2445-04d2-4f53-9fed-2e99ca2aa2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\DesignPattern">
+      <UniqueIdentifier>{64843eb7-5303-4201-9078-463096b81e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\GameNode">
+      <UniqueIdentifier>{f1045c03-c8d2-454a-b7e0-3a42b8c82e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Image">
+      <UniqueIdentifier>{d280a4ad-158b-4d40-b8ff-bfca895515d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Manager">
+      <UniqueIdentifier>{8c155dae-6f15-4fa3-b27c-ee31e801a70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Stdafx">
+      <UniqueIdentifier>{066a7a8e-88fa-4711-919f-82c48262e35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Utility">
+      <UniqueIdentifier>{9817ffac-66d0-48bf-9454-0619ee6ac9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Classes">
+      <UniqueIdentifier>{4386573a-d202-4112-ba2d-27977bd717c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Classes\Scenes">
+      <UniqueIdentifier>{50108e76-a11f-4daa-a288-b6d46eaf2081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Classes\Scenes\FifthScene">
+      <UniqueIdentifier>{32f98691-a473-4b1b-ac73-a1576807896d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Classes\Scenes\FourthScene">
+      <UniqueIdentifier>{2f1189e3-b3ff-4400-b502-12cb10e3a668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Classes\Scenes\ThirdScene">
+      <UniqueIdentifier>{643cfaaf-5442-4fd4-b861-6126a2ebe584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Classes\Scenes\SecondScene">
+      <UniqueIdentifier>{0425867e-b00a-4d91-a293-5bb4a0278903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Classes\Scenes\StartScene">
+      <UniqueIdentifier>{1a4ba13f-8e53-4105-874c-a5554906f10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Text">
+      <UniqueIdentifier>{da796f2a-817c-4be4-b787-3354b7b15604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{e89baf0f-e25f-4265-89ba-79f9a9861ef9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonMarcroFuntion.h">
+      <Filter>API FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFunction.h">
+      <Filter>API FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="BgImage.h">
+      <Filter>API FrameWork\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>API FrameWork\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="FifthScene.h">
+      <Filter>API FrameWork\Classes\Scenes\FifthScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>API FrameWork\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>API FrameWork\Classes\Scenes\StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>API FrameWork\Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdScene.h">
+      <Filter>API FrameWork\Classes\Scenes\ThirdScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondScene.h">
+      <Filter>API FrameWork\Classes\Scenes\SecondScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FourthScene.h">
+      <Filter>API FrameWork\Classes\Scenes\FourthScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>API FrameWork\DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>API FrameWork\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BgImage.cpp">
+      <Filter>API FrameWork\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>API FrameWork\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="FifthScene.cpp">
+      <Filter>API FrameWork\Classes\Scenes\FifthScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FourthScene.cpp">
+      <Filter>API FrameWork\Classes\Scenes\FourthScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>API FrameWork\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>API FrameWork\Classes\Scenes\StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>API FrameWork\Stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdScene.cpp">
+      <Filter>API FrameWork\Classes\Scenes\ThirdScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondScene.cpp">
+      <Filter>API FrameWork\Classes\Scenes\SecondScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>API FrameWork\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="WinAPI.cpp">
+      <Filter>API FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
