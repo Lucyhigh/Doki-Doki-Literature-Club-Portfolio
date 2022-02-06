@@ -247,9 +247,9 @@ void FourthScene::update(void)
 	}
 	else
 	{
-		_alpha += 30;
-		_bgAlpha += 4;
-		_textAlpha += 4;
+		_alpha += 30.0f;
+		_bgAlpha += 4.0f;
+		_textAlpha += 4.0f;
 	}
 
 	if (_bgMoved <= -WINSIZE_X) _bgMoved = WINSIZE_X;

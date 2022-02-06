@@ -21,13 +21,13 @@ class FourthScene : public GameNode
 	int _frameIndex;
 	int _loofIndex;
 	float _bgMoved;
+	float _textAlpha;
+	float _eventAlpha;
+	float _bgAlpha;
+	float _alpha;
 	bool _moveFifth;
 	bool _isTurn_S_error;
 	bool _isWrongButton;
-	BYTE _textAlpha;
-	BYTE _eventAlpha;
-	BYTE _bgAlpha;
-	BYTE _alpha;
 
 public:
 	HRESULT init(void);
