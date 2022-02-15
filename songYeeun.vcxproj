@@ -49,7 +49,9 @@
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="SecondScene.cpp" />
     <ClCompile Include="StartScene.cpp" />
-    <ClCompile Include="Stdafx.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="Text.cpp" />
     <ClCompile Include="ThirdScene.cpp" />
     <ClCompile Include="WinAPI.cpp" />
@@ -125,7 +127,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>Stdafx.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
