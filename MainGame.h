@@ -25,3 +25,10 @@ public:
 	MainGame() : _currentScene(nullptr) {}
 	~MainGame() {}
 };
+/*
+
+QWER키로 시작시 씬 전환이 가능합니다
+
+스페이스로 대사를 넘깁니다.
+
+*/

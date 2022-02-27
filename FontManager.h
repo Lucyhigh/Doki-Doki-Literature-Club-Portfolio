@@ -1,6 +1,6 @@
 #pragma once
 #include "SingletonBase.h"
-#include "Text.h"
+
 
 class FontManager : public SingletonBase <FontManager>
 {

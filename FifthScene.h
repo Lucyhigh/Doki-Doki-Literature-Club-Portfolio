@@ -1,5 +1,6 @@
 #pragma once
 #include"GameNode.h"
+#include "Text.h"
 #include "BgImage.h"
 
 #define TEXTNumLast 345
